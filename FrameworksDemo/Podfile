@@ -1,0 +1,30 @@
+
+platform :ios, '9.0'
+use_frameworks!
+
+
+workspace 'FrameworksDemo'
+
+target 'Main' do
+    project 'Main/Main'
+    pod 'Kingfisher', '~> 4.10.1'
+    pod 'HandyJSON'
+    pod 'SnapKit', '~> 4.2.0'   
+end
+
+
+target 'GlobalConstants' do
+    project 'GlobalConstants/GlobalConstants'
+    pod 'Kingfisher', '~> 4.10.1' 
+end
+
+target 'BaseNetwork' do
+    project 'BaseNetwork/BaseNetwork'
+    
+end
+
+
+target 'BaseUIKitExtension' do
+    project 'BaseUIKitExtension/BaseUIKitExtension'
+        
+end
