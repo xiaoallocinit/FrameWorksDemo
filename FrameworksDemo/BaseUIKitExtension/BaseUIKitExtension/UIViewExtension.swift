@@ -15,7 +15,6 @@ extension UIView {
             self?.addSubview(eachView)
         }
     }
-    
     public var x: CGFloat {
         get {
             return self.frame.origin.x
@@ -24,7 +23,6 @@ extension UIView {
         }
     }
     
-    
     public var y: CGFloat {
         get {
             return self.frame.origin.y
@@ -32,7 +30,6 @@ extension UIView {
             self.frame = CGRect(x: self.x, y: value, width: self.w, height: self.h)
         }
     }
-    
     
     public var w: CGFloat {
         get {
